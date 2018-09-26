@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing JavaScript</title>
+    <script>
+        function myOnClickFunction(){  
+            var text = document.getElementById('myTextInput');
+            var paragraph = document.getElementById('writeMe');
+            console.log(text.value);
+            paragraph.innerHTML = text.value;
+        }
+    </script>
+</head>
+<body>
+
+<h1>This is the title of the document</h1>
+<form>
+<input type='text' id="myTextInput" placeholder="Enter heare your text"/><br/>
+
+<button type='button' id="myClickBtn"  onclick="myOnClickFunction()">Click Me</button>
+</form>
+<p id="writeMe">Nothing done yet</p>
+
+</body>
+</html>
