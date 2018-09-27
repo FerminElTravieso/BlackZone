@@ -6,15 +6,15 @@ div.container {
 
 header {
 	padding: 1em;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: blue;
     text-align: center;
 }
 
 header img {
   float: left;
   width: 80px;
-  height: 80px;
+  height: 100px;
   background: #555;
 }
 
@@ -27,7 +27,7 @@ header h1 {
 footer {
     padding: 1em;
     color: white;
-    background-color: black;
+    background-color: orange;
     clear: left;
     text-align: center;
 }
@@ -50,7 +50,7 @@ nav ul a {
 
 article {
     margin-left: 170px;
-    border-left: 1px solid gray;
+    border-left: 1px solid blue;
     padding: 1em;
     overflow: hidden;
 }
